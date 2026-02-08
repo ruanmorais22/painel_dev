@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cpu, GraduationCap, MessageSquare, PenTool, Layout, X } from 'lucide-react';
+import { Cpu, GraduationCap, MessageSquare, PenTool, X } from 'lucide-react';
 import { Folder } from '../../types';
 
 const categories = [
@@ -34,15 +34,11 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, isMob
       >
         <div className="p-6 md:p-8 border-b border-white/10 flex justify-between items-center">
           <div>
-            <h1 className="font-poppins font-extrabold text-2xl tracking-tight flex items-center gap-3" style={{
-              backgroundImage: 'linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-            }}>
-              <Layout className="text-[#D4AF37]" strokeWidth={2.5} />
-              Automatize
-            </h1>
-            <p className="text-xs text-slate-500 mt-1 font-poppins tracking-wider uppercase">Team Edition</p>
+            <img 
+              src="/logo.svg" 
+              alt="PainelDev" 
+              className="h-10 mb-2 object-contain"
+            />
           </div>
           <button
             onClick={() => setIsMobileMenuOpen(false)}

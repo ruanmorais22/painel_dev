@@ -64,6 +64,15 @@ export interface Folder {
   created_at?: string;
 }
 
+export interface Category {
+  id: string;
+  user_id: string;
+  label: string;
+  icon_name: string;
+  is_default: boolean;
+  created_at: string;
+}
+
 // Aliases and missing types
 export type Prompt = Project;
 

@@ -32,8 +32,8 @@ export function LoginForm({ onShowSignUp }: LoginFormProps) {
       <div className="w-1/2 p-8">
         <div className="flex justify-center mb-6">
           <img 
-            src="https://io.minhalara.com.br/evolution/LOGO_FINAL.webp"
-            alt="Evolution Logo"
+            src="/logo.svg"
+            alt="PainelDev Logo"
             className="h-16 object-contain"
           />
         </div>
@@ -85,8 +85,8 @@ export function LoginForm({ onShowSignUp }: LoginFormProps) {
       {/* Right side - Image */}
       <div className="w-1/2 relative">
         <img
-          src="https://io.minhalara.com.br/evolution/topo.png"
-          alt="Evolution"
+          src="/side-image.svg"
+          alt="PainelDev"
           className="w-full h-full object-cover"
         />
       </div>
